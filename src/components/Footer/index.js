@@ -19,9 +19,9 @@ const Footer = () => {
       <h2 className="mt-16 font-medium dark:font-bold text-center capitalize text-2xl sm:text-3xl lg:text-4xl px-4">
        Online Courses | udemy | Courses
       </h2>
-      <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
+      <h3 className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
       Educate yourself and lead the word. Enroll in best courses of every field.
-      </p>
+      </h3>
 
       <form
         onSubmit={handleSubmit(onSubmit)}
